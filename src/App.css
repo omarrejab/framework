@@ -1,0 +1,45 @@
+button{
+  color: black;
+  background-color: rgb(95, 192, 219);
+  font-size: large;
+  font-style:oblique;
+  font-weight:bolder;
+  border-radius: 20%;
+  border-style:solid;
+  width: 150px;
+  height: 40px;
+  
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#np{
+color: rgb(215, 53, 53);
+}
+#email{
+color: rgb(215, 53, 53);
+}
+#tel{
+color: rgb(215, 53, 53);
+}
+#fi{
+color: rgb(215, 53, 53);
+}
+#ae{
+color: rgb(215, 53, 53);
+}
+#g{
+color: rgb(215, 53, 53);
+}
+#v{
+color: rgb(215, 53, 53);
+}
+
+h1{
+  font-style: oblique;
+  font-weight: 300;
+  
+}
