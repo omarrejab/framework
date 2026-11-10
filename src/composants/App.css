@@ -1,0 +1,85 @@
+.app-shell {
+  width: min(900px, calc(100% - 32px));
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+main {
+  min-height: 65vh;
+  padding: 10px 0 25px;
+}
+
+.search-input,
+.student-form input,
+.student-form select {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 420px;
+  margin: 5px 0 14px;
+  padding: 8px;
+  border: 1px solid #999;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+  padding: 7px 12px;
+  border: 1px solid #777;
+  border-radius: 3px;
+  background: #eee;
+  color: #111;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+.student-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 16px;
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+}
+
+.student-form h3,
+.student-form button {
+  grid-column: 1 / -1;
+}
+
+.student-form label {
+  font-size: 14px;
+}
+
+.student-form input {
+  max-width: none;
+}
+
+.students-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+@media (max-width: 520px) {
+  .app-shell {
+    width: calc(100% - 16px);
+    margin: 8px auto;
+    padding: 12px;
+  }
+
+  .student-form {
+    grid-template-columns: 1fr;
+  }
+
+  .student-form h3,
+  .student-form button {
+    grid-column: auto;
+  }
+}

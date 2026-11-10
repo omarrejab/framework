@@ -1,0 +1,12 @@
+.site-footer {
+  padding: 14px 0 0;
+  border-top: 1px solid #ccc;
+}
+
+.site-footer p {
+  margin-bottom: 5px;
+}
+
+.footer-copy {
+  font-size: 13px;
+}
